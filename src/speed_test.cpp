@@ -2,9 +2,9 @@
 
 // TODO: implementasi real speedtest, sekarang masih dummy
 float getDownloadMbps() {
-  return 3.2; // dummy value
+  return 3.2; // dummy
 }
 
 float getUploadMbps() {
-  return 1.1; // dummy value
+  return 1.1; // dummy
 }

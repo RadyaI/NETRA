@@ -2,7 +2,7 @@
 
 String getStatus(int rssi, int ping_ms, float packet_loss) {
   if (ping_ms == -1) {
-    return "Poor"; // ping gagal total = pasti jelek
+    return "Poor";
   }
 
   if (rssi > -60 && ping_ms < 100 && packet_loss < 5) {
